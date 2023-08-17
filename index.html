@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alculateur</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="main">
+
+            <div class="section1">
+                <div class="logo">
+                    <div><img src="/images/logo.png" alt=""></div>
+                    <div>
+                        <h4>NOUVEAU MAINTENANT!</h4>
+                    </div>
+                </div>
+                <div class="para">
+                    <h1>Pronostic individuel pour la perte de poids</h1>
+                    <h4>Lapplication KETOXPLODE est un succès et a été prouvée par des études. Sur la base de ces
+                        données, nous pouvons calculer le temps dont vous aurez probablement besoin pour atteindre le
+                        poids souhaité.</h4>
+                </div>
+            </div>
+            <div class="section2">
+                <div><img src="/images/image.png" alt=""></div>
+            </div>
+
+        </div>
+        <div class="hero">
+            <div class="listSection">
+                <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" style="width: 20px;color:blueviolet">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+
+                    Découvrez combien de kilos vous pouvez probablement perdre avec l'application KETOXPLODE</li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" style="width: 20px;color:blueviolet">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>Découvrez si l'utilisation des produits KETOXPLODE vous convient personnellement et combien de
+                    temps
+                    il vous faut pour atteindre votre objectif
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" style="width: 20px;color:blueviolet;margin-top:5px;margin-right: 5px;">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>Les produits KETOXPLODE sont actuellement disponibles en vente libre et sans ordonnance
+                </li>
+            </div>
+            <div class="form">
+                <form id="content">
+                    <div class="range">
+                        <div class="one">1</div>
+                        <div class="line">----------------------------------------</div>
+                        <div class="two">2</div>
+                    </div>
+                    <div class="radio">
+
+                        <input style="margin-left:10px" type="radio" name="gender" value="homme"> Homme
+
+                        <input type="radio" name="gender" value="femme"> Femme
+
+                    </div>
+                    <div style="margin-top: 30px;margin-left:15px">
+                        <div class="weight">
+                            <div class="weight1">
+                                <h6>Poids</h6>
+                                <p> <input class="input2" type="number" required placeholder="kg"></p>
+                            </div>
+                            <div class="weight2">
+                                <h6>Objectif de poids</h6>
+                                <input class="input2" type="number" required laceholder="kg">
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 30px;margin-left:15px">
+                        <p>
+                        <h6>Taille</h6>
+                        </p>
+                        <p><input class="input1" type="text" required placeholder="CM" id=""></p>
+                    </div>
+                    <div style="margin-top: 30px;margin-left:15px">
+                        <p>
+                        <h6 style="margin-bottom: 10px;">Âge</h6>
+                        </p>
+                        <p class="option"><select>
+                                <option value="Veuillez sélectionner l'âge">Veuillez sélectionner l'âge</option>
+                                <option value="Moins de 30 ans">Moins de 30 ans</option>
+                                <option value="De 30 à 40 ans">De 30 à 40 ans</option>
+                                <option value="40 à 50 ans">40 à 50 ans</option>
+                                <option value="50 à 60 ans">50 à 60 ans</option>
+                            </select></p>
+                    </div>
+                    <div class="btndiv">
+                        <button type="submit" onclick="changeContent()" class="btn">Suvait</button>
+                    </div>
+                </form>
+
+            </div>
+
+
+        </div>
+        
+        <div class="footer">
+            <h5>
+                Copyright © 2023 KetoXplode – All Rights Reserved.​
+            </h5>
+            <div class="link">
+                <div class="link1">
+                    <li><a href="#">MENTION LEGALS</a></li>
+                    <li><a href="#">INFORMATIONS SUR L'EXPÉDITION</a></li>
+                </div>
+                <li><a href="#">PROTECTION DES DONNÉES</a></li>
+                <li><a href="#">CONDITIONS GÉNÉRALES</a></li>
+            </div>
+        </div>
+    </div>
+        <script src="/script.js"></script>
+</body>
+
+</html>
